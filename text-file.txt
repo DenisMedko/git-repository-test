@@ -1,7 +1,8 @@
 git init - создает репозиторий
 git status - показывает состояние
-git add <file path> - индексирует
-git commit - создает новый комит
+git add <file path> - индексирует, добавляет файл в будущий комит
+git add . - все файлы директории
+git commit - создает новый комит (-m "Название комита")
 git log - инфо о совершенных комитах
 git log --pretty=short
 git log --pretty=oneline
