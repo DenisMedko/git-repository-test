@@ -23,3 +23,5 @@ learn git branching - сайт по операциям с гитом
 
 git remote add - добавляет связь с удаленным репо
 git remote -v - проверить связь с репо
+git push <псевдоним> <ветка>
+git push origin main
