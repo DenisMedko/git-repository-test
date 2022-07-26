@@ -14,3 +14,9 @@ git log --pretty=fuller
 git reflog - аналог, включая amends
 git diff - показывает изменения между комитами
 git diff --staged - показывает проиндексированные изменения
+git restore <file path> - возвращает файл до состояния последнего комита
+git restore --staged <file path> - убирает изменения из индекса
+git reset <hash комита> - возвращает к указанному комиту
+git revert <hash комита> - убирает указанный комит
+
+learn git branching - сайт по операциям с гитом
